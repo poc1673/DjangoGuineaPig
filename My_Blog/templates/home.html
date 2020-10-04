@@ -1,5 +1,16 @@
 {% extends 'base.html' %} {% block content %}
 
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 card mb-4  mt-3 left  top">
+      <div class="card-body">
+        <h1>Home Page </h1>
+        <p> This is a paragraph including some of the different details in html. </p>
+      </div>
+    </div>
+    {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
+  </div>
+</div>
 
 {% endblock content %}
